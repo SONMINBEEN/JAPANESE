@@ -3,35 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title>JAPANESE-2WEEK</title>
+    <link rel="stylesheet" href="style1.css">
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="colors.js"></script>
   </head>
-  <body>
-    <h1>JAPANESE</h1>
-    <h2>2주차</h2>
 
-    <p>
-      2주차의 수업 내용 기입.
-    </p>
+  <body>
+    <input type="button" value="Dark Mode" onclick="
+       ModeHandler(this);
+    ">
+
+    <h1><a href="main.html" title="main-page">JAPANESE</a></h1>
+    <div id="grid">
+      <ul>
+        <li><a href="main.html" style="text-decoration:underline; color:blue;">About</a></li>
+        <li><a href="1.html" style="text-decoration:underline;">1주차</a></li>
+        <li><a href="2.html" style="text-decoration:underline;">2주차</a></li>
+        <li><a href="3.html" style="text-decoration:underline;">3주차</a></li>
+      </ul>
+      <div id="acticle">
+        <h2>2주차</h2>
+        <div id="grid">
+        <ul>
+          <li style="width: 50px;">복습 테스트</li>
+          <li style="width: 50px;">2주차 수업내용</li>
+        </ul>
+        <div>
+        <p>
+          <h3>복습테스트</h3>
+          지난주 수업에 대한 복습 테스트 문제들.
+        </p>
+        </div>
+        </div>
+      </div>
+    </div>
 
     <p>
       <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://japanese-1.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://japanese-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </p>
   </body>
 </html>

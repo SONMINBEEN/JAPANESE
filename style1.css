@@ -26,9 +26,7 @@
     display: grid;
     grid-template-columns: 160px 1fr;
   }
-  #acticle{
-    margin: 0;
-  }
+
   @media(max-width:480px){
     #grid{
       display: block;
